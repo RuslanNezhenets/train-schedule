@@ -1,0 +1,22 @@
+body {
+  margin: 15px;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after{
+  box-sizing: border-box;
+}
+
+.navbar{
+  margin: -15px -15px 10px -15px;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+/**********************Blocks***********************/
+@import "blocks/Form";
+@import "blocks/Train";
